@@ -21,9 +21,13 @@ How the Chatbot Works
 1. Preprocessing User Input
 
 Before generating a response, the chatbot processes user input through the following steps:
+
 ✅ Lowercasing: Converts all text to lowercase for uniformity.
+
 ✅ Tokenization: Splits sentences into individual words using NLTK.
+
 ✅ Removing Punctuation: Filters out non-alphanumeric characters.
+
 ✅ Stopword Removal: Eliminates common words (e.g., “the”, “is”, “in”) using NLTK’s stopwords list.
 
 2. Recognizing User Queries
@@ -160,9 +164,13 @@ Chatbot: Goodbye!
 Future Enhancements
 
 This chatbot is a basic implementation and can be extended with the following improvements:
+
 🔹 Machine Learning: Train a chatbot using NLP and ML techniques.
+
 🔹 Context Awareness: Maintain conversation history for better responses.
+
 🔹 API Integration: Connect with external data sources for dynamic answers.
+
 🔹 Voice Support: Add speech recognition for voice-based interactions.
 
 Conclusion
